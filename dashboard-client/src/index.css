@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Poppins;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+.css-1s1b1ai .Label-text {
+  color: white !important;
+}
+
+.css-7zok9a.Appointment-appointment {
+  background-color: #F6C927 !important;
+}
+

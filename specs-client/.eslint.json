@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:styled-components-a11y/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "styled-components-a11y"],
+  "rules": {
+    "react/jsx-uses-react": ["off"],
+    "react/react-in-jsx-scope": ["off"],
+    "react/jsx-props-no-spreading": ["warn"],
+    "no-shadow": "off",
+    "prettier/prettier": "error",
+    "no-unused-vars": "error",
+    "no-console": "warn",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "class-methods-use-this": "off",
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-expressions": "off",
+    "default-case": "off",
+    "no-duplicate-imports": ["error", { "includeExports": true }],
+    "prefer-const": "error",
+    "no-var": "error",
+    "arrow-spacing": "error",
+    "func-call-spacing": ["error", "never"],
+    "no-extra-parens": "error"
+  }
+}
